@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 5% 0 5%;
+}
+#header {
+  text-align: center;
+  padding: 0.5em;
+}
+.imgs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img img {
+  width: 200px;
+  height: 100px;
+}
+.content {
+  margin-top: 3%;
+}
+#blog {
+  float: left;
+  padding: 10px;
+}
+#viewb {
+  margin-top: 3%;
+  float: right;
+  padding: 10px;
+}
+#viewb button {
+  background-color: #c2a91f;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.postcontent {
+  margin-top: 12%;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-evenly;
+*/
+}
+.posts {
+  margin-left: 0;
+  width: 420px;
+  height: 400px;
+}
+
+.postshead h3 {
+  float: left;
+  padding: 0;
+  color: #dac340;
+  margin-bottom: 0;
+}
+.posts .icons {
+  float: right;
+}
+.posts .icons ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+.posts .icons ul li {
+  padding: 0 5px 0 5px;
+}
+.para {
+  float: left;
+  margin: 0;
+}
+.para p {
+  font-size: 2.5vh;
+}
