@@ -1,105 +1,154 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sahiti | Task 1</title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="https://kit.fontawesome.com/cfbb7eefe6.js"
-            crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="header">
-            <h1>Awards</h1>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sahiti 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        img {
+            max-height: 80px;
+            max-width: 150px;
+        }
+
+        .cont2 {
+            margin-top: 5%;
+        }
+
+        #marg {
+            margin-top: 3%;
+        }
+
+        .bc {
+            background-color: #c2a91f;
+            border: none;
+            color: black;
+            padding: 10px 30px 10px 30px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            background-color: black;
+            border: none;
+            color: #c2a91f;
+            padding: 10px 30px 10px 30px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="marg">
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <h1>Awards</h1>
+                </center>
+            </div>
         </div>
-        <div class="imgs">
-            <div class="img">
-                <img src="images/benz.png" alt="">
-            </div>
-            <div class="img">
-                <img src="images/aston.png" alt="">
-            </div>
-            <div class="img">
-                <img src="images/ford.png" alt="">
-            </div>
-            <div class="img">
-                <img src="images/bently.png" alt="">
-            </div>
-            <div class="img">
-                <img src="images/audi.png" alt="">
-            </div>
-            <div class="img">
-                <img src="images/jag.png" alt="">
-            </div>
+        -<div class="row">
+            <div class="col"><img src="images\aston.png" width="200" height="100"></div>
+            <div class="col"><img src="images\audi.png"></div>
+            <div class="col"><img src="images\bently.png"></div>
+            <div class="col"><img src="images\benz.png"></div>
+            <div class="col"><img src="images\ford.png"></div>
+            <div class="col"><img src="images\jag.png"></div>
         </div>
-        <div class="content">
-            <div id="blog">
+        <div class="row justify-content-between cont2">
+            <div class="col-10">
                 <h1>Blog Update</h1>
             </div>
-            <div id="viewb">
-                <button>View All</button>
-            </div>
-        </div>
-        <div class="postcontent">
-            <div class="posts">
-                <img src="images/1.jpg" alt="" width="420px"
-                    height="200px">
-                <div class="postshead">
-                    <h3>Blog title goes here</h3>
-                </div>
-                <div class="icons">
-                    <ul>
-                        <li>12&nbsp;&nbsp;<i class="far fa-comment"></i></li>
-                        <li>3&nbsp;&nbsp;<i class="fas fa-share"></i></li>
-                    </ul>
-                </div>
-                <div class="para">
-                    <p>Prevention is truly your best investment.<br>Dental
-                        Cleanings,
-                        Exams, Sealants, Flouride Varnis and Nighguards
-                        maintain a healthy and..
-                    </p>
-                </div>
-            </div>
-            <div class="posts">
-                <img src="images/4.jpg" alt="" width="420px"
-                    height="200px">
-                <div class="postshead">
-                    <h3>Blog title goes here</h3>
-                </div>
-                <div class="icons">
-                    <ul>
-                        <li>12&nbsp;&nbsp;<i class="far fa-comment"></i></li>
-                        <li>3&nbsp;&nbsp;<i class="fas fa-share"></i></li>
-                    </ul>
-                </div>
-                <div class="para">
-                    <p>Prevention is truly your best investment.<br>Dental
-                        Cleanings,
-                        Exams, Sealants, Flouride Varnis and Nighguards
-                        maintain a healthy and..
-                    </p>
-                </div>
-            </div>
-            <div class="posts">
-                <img src="images/3.jpg" alt="" width="420px"
-                    height="200px">
-                <div class="postshead">
-                    <h3>Blog title goes here</h3>
-                </div>
-                <div class="icons">
-                    <ul>
-                        <li>12&nbsp;&nbsp;<i class="far fa-comment"></i></li>
-                        <li>3&nbsp;&nbsp;<i class="fas fa-share"></i></li>
-                    </ul>
-                </div>
-                <div class="para">
-                    <p>Prevention is truly your best investment.<br>Dental
-                        Cleanings,
-                        Exams, Sealants, Flouride Varnis and Nighguards
-                        maintain a healthy and..
-                    </p>
-                </div>
+            <div class="col-2">
+                <button class="btn btn-primary bc">View All</button>
             </div>
         </div>
 
-    </body>
+        <div class="row postcontent">
+            <div class="cols posts">
+                <img src="images/1.jpg" alt="" width="350px" height="200px">
+                <div class="row justify-content-between">
+                    <div class="col-10">
+                        <div class="postshead">
+                            <h3>Blog title goes here</h3>
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <div class="icons">
+                            <ul>
+                                <li>12&nbsp;&nbsp;<i class="far fa-comment"></i></li>
+                                <li>3&nbsp;&nbsp;<i class="fas fa-share"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="para">
+                    <p>Prevention is truly your best investment.<br>Dental
+                        Cleanings,
+                        Exams, Sealants, Flouride Varnis and Nighguards
+                        maintain a healthy and..
+                    </p>
+                </div>
+            </div>
+            <div class="cols posts">
+                <img src="images/4.jpg" alt="" width="350px" height="200px">
+                <div class="row justify-content-between">
+                    <div class="col-10">
+                        <div class="postshead">
+                            <h3>Blog title goes here</h3>
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <div class="icons">
+                            <ul>
+                                <li>12&nbsp;&nbsp;<i class="far fa-comment"></i></li>
+                                <li>3&nbsp;&nbsp;<i class="fas fa-share"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="para">
+                    <p>Prevention is truly your best investment.<br>Dental
+                        Cleanings,
+                        Exams, Sealants, Flouride Varnis and Nighguards
+                        maintain a healthy and..
+                    </p>
+                </div>
+            </div>
+            <div class="cols posts">
+                <img src="images/3.jpg" alt="" width="350px" height="200px">
+                <div class="row justify-content-between">
+                    <div class="col-10">
+                        <div class="postshead">
+                            <h3>Blog title goes here</h3>
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <div class="icons">
+                            <ul>
+                                <li>12&nbsp;&nbsp;<i class="far fa-comment"></i></li>
+                                <li>3&nbsp;&nbsp;<i class="fas fa-share"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="para">
+                    <p>Prevention is truly your best investment.<br>Dental
+                        Cleanings,
+                        Exams, Sealants, Flouride Varnis and Nighguards
+                        maintain a healthy and..
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
