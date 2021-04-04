@@ -35,34 +35,33 @@ body {
   font-size: 15px;
 }
 .postcontent {
-  margin-top: 12%;
   margin-left: 0;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   /* justify-content: space-evenly;
 */
 }
 .posts {
   margin-left: 0;
-  width: 420px;
-  height: 400px;
+  width: 350px;
+  height: initial;
 }
 
 .postshead h3 {
   float: left;
   padding: 0;
   color: #dac340;
-  margin-bottom: 0;
 }
-.posts .icons {
+.icons {
   float: right;
 }
-.posts .icons ul {
+ .icons ul {
   display: inline-flex;
   list-style-type: none;
 }
-.posts .icons ul li {
-  padding: 0 5px 0 5px;
+ .icons ul li {
+  padding: 8px 5px 0 5px;
 }
 .para {
   float: left;
@@ -70,4 +69,8 @@ body {
 }
 .para p {
   font-size: 2.5vh;
+}
+.postcontent .posts img{
+  min-width: 350px;
+  min-height: 200px;
 }
